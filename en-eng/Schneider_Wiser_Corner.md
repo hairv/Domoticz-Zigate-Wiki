@@ -322,6 +322,8 @@ At that stage, someone set a target temperature on the Application managing the 
    * Target Actuator
    * Cluster 0x0402
    
+  This has for effect of stopping the blinking of the actuator which appears 30 min after pairing.
+   
 #### comments
 
 * The HUB is acting as a Zigbee controler but not only as it is responding to cluster 0x0201 (Thermostat)
